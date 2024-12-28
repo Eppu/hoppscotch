@@ -1,29 +1,29 @@
 {
   "action": {
-    "add": "Add",
+    "add": "Lisää",
     "autoscroll": "Autoscroll",
     "cancel": "Peruuta",
     "choose_file": "Valitse tiedosto",
-    "clear": "Asia selvä",
-    "clear_all": "Tyhjennä",
+    "clear": "Tyhjennä",
+    "clear_all": "Tyhjennä kaikki",
     "clear_history": "Tyhjennä koko historia",
-    "close": "Close",
+    "close": "Sulje",
     "connect": "Yhdistä",
     "connecting": "Yhdistetään",
     "copy": "Kopio",
-    "create": "Create",
-    "delete": "Poistaa",
-    "disconnect": "Katkaista",
+    "create": "Luo",
+    "delete": "Poista",
+    "disconnect": "Katkaise yhteys",
     "dismiss": "Hylkää",
     "dont_save": "Älä tallenna",
     "download_file": "Lataa tiedosto",
     "drag_to_reorder": "Muuta järjestystä raahaamalla",
     "duplicate": "Kloonaa",
     "edit": "Muokkaa",
-    "filter": "Filter",
+    "filter": "Suodata",
     "go_back": "Mene takaisin",
     "go_forward": "Mene eteenpäin",
-    "group_by": "Group by",
+    "group_by": "Ryhmittely",
     "hide_secret": "Piilota salaisuus",
     "label": "Otsikko",
     "learn_more": "Lue lisää",
@@ -108,16 +108,16 @@
     "all_sign_in_options": "Kaikki kirjautumisvaihtoehdot",
     "continue_with_auth_provider": "Continue with {provider}",
     "continue_with_email": "Jatka sähköpostilla",
-    "continue_with_github": "Jatka GitHubilla",
-    "continue_with_github_enterprise": "Continue with GitHub Enterprise",
-    "continue_with_google": "Jatka Googlella",
-    "continue_with_microsoft": "Continue with Microsoft",
+    "continue_with_github": "Jatka GitHub-tilillä",
+    "continue_with_github_enterprise": "Jatka GitHub Enterprisella",
+    "continue_with_google": "Jatka Google-tilillä",
+    "continue_with_microsoft": "Jatka Microsoft-tilillä",
     "email": "Sähköposti",
     "logged_out": "Kirjautunut ulos",
     "login": "Kirjaudu sisään",
     "login_success": "Kirjautuminen onnistui",
     "login_to_hoppscotch": "Kirjaudu Hoppscotchiin",
-    "logout": "Kirjautua ulos",
+    "logout": "Kirjaudu ulos",
     "re_enter_email": "Syötä sähköpostiosoite uudestaan",
     "send_magic_link": "Lähetä taikalinkki",
     "sync": "Synkronoi",
@@ -282,20 +282,20 @@
   },
   "environment": {
     "add_to_global": "Add to Global",
-    "added": "Environment addition",
+    "added": "Ympäristö lisätty",
     "create_new": "Luo uusi ympäristö",
-    "created": "Environment created",
-    "deleted": "Environment deletion",
-    "duplicated": "Environment duplicated",
+    "created": "Ympäristö luotu",
+    "deleted": "Ympäristö poistettu",
+    "duplicated": "Ympäristö kloonattu",
     "edit": "Muokkaa ympäristöä",
     "empty_variables": "No variables",
     "global": "Global",
     "global_variables": "Global variables",
     "import_or_create": "Import or create a environment",
     "invalid_name": "Anna ympäristölle kelvollinen nimi",
-    "list": "Environment variables",
-    "my_environments": "My Environments",
-    "name": "Name",
+    "list": "Ympäristömuuttujat",
+    "my_environments": "Omat ympäristöt",
+    "name": "Nimi",
     "nested_overflow": "nested environment variables are limited to 10 levels",
     "new": "Uusi ympäristö",
     "no_active_environment": "No active environment",
@@ -514,7 +514,7 @@
     "connection_not_authorized": "This MQTT connection does not use any authentication.",
     "invalid_topic": "Please provide a topic for the subscription",
     "keep_alive": "Keep Alive",
-    "log": "Hirsi",
+    "log": "Loki",
     "lw_message": "Last-Will Message",
     "lw_qos": "Last-Will QoS",
     "lw_retain": "Last-Will Retain",
@@ -566,7 +566,7 @@
   },
   "request": {
     "added": "Pyyntö lisätty",
-    "authorization": "Valtuutus",
+    "authorization": "Autorisaatio",
     "body": "Pyynnön runko",
     "choose_language": "Valitse kieli",
     "content_type": "Sisältötyyppi",
@@ -576,19 +576,19 @@
       "text": "Text"
     },
     "different_collection": "Cannot reorder requests from different collections",
-    "duplicated": "Request duplicated",
+    "duplicated": "Pyyntö kloonattu",
     "duration": "Kesto",
     "enter_curl": "Kirjoita cURL",
     "generate_code": "Luo koodi",
-    "generated_code": "Luotu koodi",
+    "generated_code": "Koodi luotu",
     "go_to_authorization_tab": "Go to Authorization tab",
     "go_to_body_tab": "Go to Body tab",
     "header_list": "Otsikkoluettelo",
     "invalid_name": "Anna pyynnölle nimi",
-    "method": "Menetelmä",
-    "moved": "Request moved",
+    "method": "Metodi",
+    "moved": "Pyyntö siirretty",
     "name": "Pyynnön nimi",
-    "new": "New Request",
+    "new": "Uusi pyyntö",
     "order_changed": "Request Order Updated",
     "override": "Override",
     "override_help": "Set <kbd>Content-Type</kbd> in Headers",
@@ -603,7 +603,7 @@
     "renamed": "Pyyntö nimettiin uudelleen",
     "request_variables": "Request variables",
     "run": "Juosta",
-    "save": "Tallentaa",
+    "save": "Tallenna",
     "save_as": "Tallenna nimellä",
     "saved": "Pyyntö tallennettu",
     "share": "Jaa",
@@ -621,7 +621,7 @@
   "response": {
     "audio": "Audio",
     "body": "Vastauselin",
-    "filter_response_body": "Filter JSON response body (uses JSONPath syntax)",
+    "filter_response_body": "Suodata JSON-vastausta (käyttää JSONPath-syntaksia)",
     "headers": "Headerit",
     "html": "HTML",
     "image": "Kuva",
@@ -765,21 +765,21 @@
       "copy_request_link": "Kopioi pyyntölinkki"
     },
     "response": {
-      "copy": "Copy response to clipboard",
-      "download": "Download response as file",
-      "title": "Response"
+      "copy": "Kopioi vastaus leikepöydälle",
+      "download": "Lataa vastaus tiedostona",
+      "title": "Vastaus"
     },
     "theme": {
-      "black": "Switch  theme to black mode",
-      "dark": "Switch  theme to  dark mode",
-      "light": "Switch  theme to light mode",
-      "system": "Switch  theme to system mode",
+      "black": "Switch theme to black mode",
+      "dark": "Switch theme to  dark mode",
+      "light": "Switch theme to light mode",
+      "system": "Switch theme to system mode",
       "title": "Theme"
     }
   },
   "show": {
     "code": "Näytä koodi",
-    "collection": "Expand Collection Panel",
+    "collection": "Näytä kokoelmapaneeli",
     "more": "Näytä lisää",
     "sidebar": "Näytä sivupalkki"
   },
@@ -788,14 +788,14 @@
     "connection_not_authorized": "This SocketIO connection does not use any authentication.",
     "event_name": "Tapahtuman nimi",
     "events": "Tapahtumat",
-    "log": "Hirsi",
+    "log": "Loki",
     "url": "URL -osoite"
   },
   "spotlight": {
     "change_language": "Change Language",
     "environments": {
       "delete": "Delete current environment",
-      "duplicate": "Duplicate current environment",
+      "duplicate": "Kloonaa nykyinen ympäristö",
       "duplicate_global": "Duplicate global environment",
       "edit": "Edit current environment",
       "edit_global": "Edit global environment",
@@ -804,25 +804,25 @@
       "title": "Environments"
     },
     "general": {
-      "chat": "Chat with support",
-      "help_menu": "Help and support",
-      "open_docs": "Read Documentation",
-      "open_github": "Open GitHub repository",
-      "open_keybindings": "Keyboard shortcuts",
+      "chat": "Chattaa tuen kanssa",
+      "help_menu": "Apu ja tuki",
+      "open_docs": "Avaa dokumentaatio",
+      "open_github": "Avaa GitHub-repo",
+      "open_keybindings": "Näppäinkomennot",
       "social": "Social",
       "title": "General"
     },
     "graphql": {
-      "connect": "Connect to server",
-      "disconnect": "Disconnect from server"
+      "connect": "Yhdistä palvelimeen",
+      "disconnect": "Katkaise yhteys palvelimeen"
     },
     "miscellaneous": {
       "invite": "Invite your friends to Hoppscotch",
       "title": "Miscellaneous"
     },
     "request": {
-      "save_as_new": "Save as new request",
-      "select_method": "Select method",
+      "save_as_new": "Tallenna uutena pyyntönä",
+      "select_method": "Valitse metodi",
       "switch_to": "Switch to",
       "tab_authorization": "Authorization tab",
       "tab_body": "Body tab",
@@ -834,9 +834,9 @@
       "tab_variables": "Variables tab"
     },
     "response": {
-      "copy": "Copy response",
-      "download": "Download response as file",
-      "title": "Response"
+      "copy": "Kopioi vastaus",
+      "download": "Lataa vastaus tiedostona",
+      "title": "Vastaus"
     },
     "section": {
       "interceptor": "Interceptor",
@@ -855,19 +855,19 @@
       }
     },
     "tab": {
-      "close_current": "Close current tab",
-      "close_others": "Close all other tabs",
-      "duplicate": "Duplicate current tab",
-      "new_tab": "Open a new tab",
-      "title": "Tabs"
+      "close_current": "Sulje nykyinen välilehti",
+      "close_others": "Sulje muut välilehdet",
+      "duplicate": "Kloonaa nykyinen välilehti",
+      "new_tab": "Uusi välilehti",
+      "title": "Välilehdet"
     },
     "workspace": {
-      "delete": "Delete current team",
-      "edit": "Edit current team",
-      "invite": "Invite people to team",
-      "new": "Create new team",
-      "switch_to_personal": "Switch to your personal workspace",
-      "title": "Teams"
+      "delete": "Poista valittu tiimi",
+      "edit": "Muokkaa valittua tiimiä",
+      "invite": "Kutsu ihmisiä tiimiin",
+      "new": "Luo uusi tiimi",
+      "switch_to_personal": "Vaihda henkilökohtaiseen työtilaan",
+      "title": "Tiimit"
     },
     "phrases": {
       "try": "Try",
@@ -879,7 +879,7 @@
   },
   "sse": {
     "event_type": "Tapahtumatyyppi",
-    "log": "Hirsi",
+    "log": "Loki",
     "url": "URL -osoite"
   },
   "state": {
@@ -1040,7 +1040,7 @@
   },
   "websocket": {
     "communication": "Viestintä",
-    "log": "Hirsi",
+    "log": "Loki",
     "message": "Viesti",
     "protocols": "Pöytäkirjat",
     "url": "URL -osoite"
